@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-size: 1.2rem;
+}
+header{
+  text-align: center;
+    height: 50vh;
+    background-color:rgb(0, 68, 255) ;
+    color: white;
+    padding: 80px;
+}
+body{
+  margin: 0;
+}
+h1{
+  font-size: 2rem;
+  padding: 10px;
+  text-align: center;
+  color: rgb(0, 170, 255);
+}
+button{
+
+  height: 40px;
+  width: 140px;
+  border: none;
+  border-radius: 10px;
+}
+button:hover{
+   color:white;
+   background-color: darkblue;
+}
+img{
+  height: 300px;
+  width: 190px;
+}
+main{
+  padding: 10px;
+}
+#About{
+  justify-content: center;
+  text-align: center;
+  font-size: 10rem;
+}
+#Skills{
+  padding: 200px;
+  align-items: center;
+
+}
+#Projects{
+  padding: 120px;
+    text-align: center;
+
+}
+#Contact{
+  padding: 150px;
+    text-align: center;
+    display: grid;
+
+
+}
+section{
+  min-height: 100vh;
+border: 1px solid grey;  
+border-radius: 20px;
+margin-bottom: 30px;
+padding: 120px;
+box-shadow: 0 5px 15px rgb(0,0,0,0.1);
+background-color: white;
+}
+#submit{
+  height: 40px;
+  width: 140px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: hsl(236, 66%, 72%);
+}
+#submit:hover{
+  color: rgb(154, 11, 99);
+}
+input{
+  background-color: rgb(225, 215, 250);
+  border-radius: 4px;
+  padding: 1px;
+  margin: 5px;
+  padding-right: 10px;
+  
+}
+label{
+  display: inline-block;
+  width: 100px;
+  
+}
+footer{
+  background-color:black;
+ color: lightgray;
+  height: 180px;
+  text-align: center;
+  padding: 10px;
+}
+.fixedbutton{
+  border-radius:50% ;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  height: 70px;
+  width: 70px;
+  border: none;
+  color: white;
+  background-color: #2196f3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid gray;
+  padding: 10px;
+  text-align: center;
+  
+}
+li{
+  margin-right: 100px;
+  font-size: 1rem;
+  text-align: center;
+}
+ol{
+  padding-left: 500px;
+  padding-right: 300px;
+  content:left;
+}
